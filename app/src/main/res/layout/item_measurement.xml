@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/measurementTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@+id/label"
+        android:layout_below="@id/nameTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/inputMeasurementEditText"
+        android:textSize="30sp"/>
+
+   <EditText
+        android:text=""
+        android:id="@+id/inputMeasurementEditText"
+       android:layout_width="96dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/nameTextView"
+       android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My health</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="new_report">New Report</string>
+    <string name="send_report">Send Report</string>
+    <string name="send_button_label">Send</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+</resources>

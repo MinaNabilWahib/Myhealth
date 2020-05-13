@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <ListView
+        android:id="@+id/my_list"
+        android:layout_width="match_parent"
+        android:layout_height="187.5dp"/>
+    <Button
+        android:text="Submit"
+        android:id="@+id/btnSave"
+        android:layout_width="86dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/my_list"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:id="@+id/report_summary_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSave"
+        android:layout_marginTop="16dp"
+        android:text="report preview will be here as soon as you submit your results"
+        android:maxLines="10"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+    <!--<Button-->
+        <!--android:text="send report"-->
+        <!--android:id="@+id/send_report"-->
+        <!--android:layout_width="86dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@id/report_summary_text_view"-->
+        <!--android:layout_alignParentRight="true" />-->
+
+
+
+
+
+</RelativeLayout>
+
+
